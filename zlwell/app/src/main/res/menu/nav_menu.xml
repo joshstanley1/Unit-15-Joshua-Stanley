@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_menu_home"/>
+    <item android:title="Community Board">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_events"
+                    android:title="Events"
+                    android:icon="@drawable/ic_menu_event"
+                    />
+                <item
+                    android:id="@+id/nav_posts"
+                    android:title="Posts"
+                    android:icon="@drawable/ic_menu_posts"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Work Well">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tasks"
+                    android:title="Tasks"
+                    android:icon="@drawable/ic_menu_tasks"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Be Well">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_info"
+                    android:title="Info"
+                    android:icon="@drawable/ic_menu_info"
+                    />
+                <item
+                    android:id="@+id/nav_remind"
+                    android:title="Re-Mind"
+                    android:icon="@drawable/ic_menu_remind"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_menu_login"
+                    />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_menu_profile"
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_menu_logout"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

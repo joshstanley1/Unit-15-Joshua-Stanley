@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:label="Home"
+        android:name="com.joshstanley.zlwell.Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/nav_events"
+        android:label="Events"
+        android:name="com.joshstanley.zlwell.Events"
+        tools:layout="@layout/fragment_events"/>
+    <fragment
+        android:id="@+id/nav_info"
+        android:label="Info"
+        android:name="com.joshstanley.zlwell.Info"
+        tools:layout="@layout/fragment_info"/>
+    <fragment
+        android:id="@+id/nav_posts"
+        android:label="Posts"
+        android:name="com.joshstanley.zlwell.Posts"
+        tools:layout="@layout/fragment_posts"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:label="Profile"
+        android:name="com.joshstanley.zlwell.Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/nav_remind"
+        android:label="ReMind"
+        android:name="com.joshstanley.zlwell.ReMind"
+        tools:layout="@layout/fragment_re_mind"/>
+    <fragment
+        android:id="@+id/nav_tasks"
+        android:label="Tasks"
+        android:name="com.joshstanley.zlwell.Tasks"
+        tools:layout="@layout/fragment_tasks"/>
+</navigation>

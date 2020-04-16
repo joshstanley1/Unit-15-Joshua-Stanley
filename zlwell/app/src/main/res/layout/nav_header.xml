@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/ic_brain"
+            android:id="@+id/iv_header_profile"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_header_primary_text"
+            android:paddingStart="10dp"
+            android:text="ZL Wellbeing"
+            android:layout_below="@+id/iv_header_profile"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nav_header_primary_text"
+            android:fontFamily="sans-serif"
+            android:paddingStart="10dp"
+            android:text="Looking after your mental health"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</LinearLayout>
