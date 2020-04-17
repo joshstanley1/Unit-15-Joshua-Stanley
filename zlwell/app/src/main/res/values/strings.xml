@@ -10,4 +10,10 @@
     <string name="info_fragment">Info_Fragment</string>
     <string name="posts_fragment">Posts Fragment</string>
     <string name="tasks_fragment">Tasks Fragment</string>
+
+    <string name="tasks_help_text">Welcome to the tasks screen, on this screen you can create
+        and delete tasks to help yourself organised, to add a task simply type the task into
+        the text box above and click the add button, once you have completed a task you can
+        delete it simply by tapping on it.
+    </string>
 </resources>

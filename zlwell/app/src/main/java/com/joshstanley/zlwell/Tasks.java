@@ -32,6 +32,8 @@ public class Tasks extends Fragment implements View.OnClickListener, AdapterView
     ListView itemLV;
     ArrayList<String> items = new ArrayList<>();
     ArrayAdapter<String> adapter;
+    Button btnHelp;
+
 
     public Tasks() {
 
@@ -50,6 +52,19 @@ public class Tasks extends Fragment implements View.OnClickListener, AdapterView
         adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, items);
         itemLV.setAdapter(adapter);
         itemLV.setOnItemClickListener(this);
+
+        btnHelp = view.findViewById(R.id.help_btn);
+        btnHelp.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+               builder.setTitle("Need some help?").setMessage(R.string.tasks_help_text);
+               AlertDialog dialog = builder.create();
+               dialog.show();
+           }
+        });
+
+
         return view;
     }
 
